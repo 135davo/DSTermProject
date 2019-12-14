@@ -58,5 +58,5 @@ Thread pool that can handle n number of connection
 Use array threads to take ip 
 Attempt use of arrays to create audio channel
 Attempt use of microphone thread to gain access to user’s microphone  
-Compatibility 
+## Compatibility 
 	

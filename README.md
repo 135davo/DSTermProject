@@ -37,7 +37,9 @@ Create a loop to continually check for new inputs
 Capture the buffer through an output stream and broadcast the message to everyone else 
 ## Device Manager: 
 Handle call initiation to all attendees
+
 Handle data capture to all attendees
+
 Handle delivery to all attendees
 ## Resource Management:
 Thread pool that can handle n number of connection

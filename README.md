@@ -15,26 +15,10 @@ When the server receives a request message from a User/client inviting another p
 searches for two endpoints and finds the best path to pass the pieces of information from one end to the other.
 How to handle messages.
 Chat server and client.
-How do they  communicate?
- 
-Read me file- client, server what language you have to speak to each other. What kind of data?
-Functionality. 
-Use cases. Flags in the message. A response or a broadcast? 
-What are different circumstances that need to be covered?
-How are we going to store all this.  What kind of data structure are we going to use? Get a copy of the buffer and send every user the buffer. 
- ## Protocols: 
- 
- Understanding every protocol.
+## Functionality:
 
-
-
-
-
-
-
-
-
-
+Users can send messages to a chat room where they can also see what other users have entered sent to the chat room.
+Users can send video messages to each other on the same port as well
 
 
 ## Steps:
@@ -51,15 +35,18 @@ Create two different threads to receive data from the user and from the server.
 Create a loop to continually check for new inputs
 
 Capture the buffer through an output stream and broadcast the message to everyone else 
-Device Manager
-Handle call initiation, data capture and delivery to all attendees
-Resource Management 
+## Device Manager: 
+Handle call initiation to all attendees
+Handle data capture to all attendees
+Handle delivery to all attendees
+## Resource Management:
 Thread pool that can handle n number of connection
 Use array threads to take ip 
-Attempt use of arrays to create audio channel
+Attempt use of arrays to create audio channel 
 Attempt use of microphone thread to gain access to user’s microphone  
-## Compatibility 
+## Compatibility:
+Java environment needed to run program 
+Microphone or proper audio format file 
+## Github Link:
+https://github.com/135davo/DSTermProject.git
 	
-## Github Link
-	https://github.com/135davo/DSTermProject.git
-
